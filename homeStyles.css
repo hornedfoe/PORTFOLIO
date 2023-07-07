@@ -1,0 +1,151 @@
+body {
+    background-image : url("doubt-bck.jpg");
+    font-family: 'Candara Light';
+    color: antiquewhite;
+}
+.title{
+    color: antiquewhite;
+    font-size: 50px;
+    padding-top : 50px;
+    padding-bottom: 0px;
+    padding-left: 150px;
+}
+.Im{
+    color: antiquewhite;
+    font-size: 30px;
+}
+.whole{
+    display: flex;
+}
+.image-container {
+    bottom: 0;
+    left: 0;
+    padding: auto;
+    padding-top: 50px;
+    width: 650px;
+    height: 725px;
+    background: url("pic.png") no-repeat;
+    background-size: contain;
+    background-color: transparent;
+  } 
+  .tags-container {
+    height: 500px;
+    width: 650px;
+    display: flex;
+    font-size: 30px;
+    padding-top: 25px;
+    flex-direction : column;
+    justify-content : space-between;
+  }
+  .tag {
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 400px;
+    padding-left: 200px;
+    text-decoration:none;
+    color: antiquewhite;
+  }
+  a{
+    font-size: 30px;
+    text-decoration: none;
+    color:antiquewhite
+  }
+  .next-container{
+    display: flex;
+    padding-top: 50px;
+    justify-content:space-between;
+    flex-direction: column;
+  }
+  .about-title{
+    height: 195px;
+    font-size: 50px;
+    padding-left: 100px;
+    padding-top: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .prev{
+    padding-top: 22px;
+    padding-right: 150px;
+    font-size: 25px;
+  }
+  .about{
+    width : 1000px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding-top: 80px;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    font-size: 31px;
+    cursor: pointer;
+  }
+
+  .new_a{
+    font-size: 20px;
+  }
+
+  .new_a:hover{
+    font-size: 20.5px;
+    text-decoration: underline;
+  }
+   
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+
+  .project {
+    width : 1000px;
+    position: fixed;
+    top: 58.5%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .technologies {
+    color: #888;
+  }
+  
+  .description {
+    margin-top: 5px;
+  }
+
+
+  .contact-entry {
+    margin-bottom: 20px;
+  }
+  
+  .contact-entry h3 {
+    font-weight: bold;
+  }
+  
+  .contact-info {
+    color: #888;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
