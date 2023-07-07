@@ -2,8 +2,8 @@ body {
     background-image : url("black.jpg");
     font-family: 'Candara Light';
     color: antiquewhite;
-    background-size:100%;
-
+    background-size:cover;
+    
 }
 .title{
     color: antiquewhite;
